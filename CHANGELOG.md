@@ -24,6 +24,7 @@
 - Fixed no `stage` argument in parallel mode [#1299]
 - Improved environment variables management
 - Fixed `runLocally` to not cd into remote dir
+- Fixed symfony recipe configuration option `console_options`
 
 ### Removed 
 - Removed `terminate_message` option

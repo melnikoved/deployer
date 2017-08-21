@@ -53,7 +53,7 @@ set('bin/console', function () {
 
 // Symfony console opts
 set('console_options', function () {
-    $options = '--no-interaction --env={{env}}';
+    $options = '--no-interaction --env={{symfony_env}}';
 
     return get('env') !== 'prod' ? $options : sprintf('%s --no-debug', $options);
 });
